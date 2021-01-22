@@ -1,7 +1,7 @@
 // Copyright 2020 Anastasiya Smirnova nastya.asya08@yandex.ru
 
-#ifndef INCLUDE_HEADER_HPP_
-#define INCLUDE_HEADER_HPP_
+#ifndef INCLUDE_SHARED_PTR_HPP_
+#define INCLUDE_SHARED_PTR_HPP_
 
 #include <atomic>
 #include <iostream>
@@ -151,4 +151,4 @@ auto SharedPtr<T>::useCount() const -> size_t {
   return *count_of_links;
 }
 
-#endif  // INCLUDE_HEADER_HPP_
+#endif  // INCLUDE_SHARED_PTR_HPP_
