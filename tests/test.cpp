@@ -5,7 +5,7 @@
 
 TEST(Example, EmptyTest) { EXPECT_TRUE(true); }
 
-TEST(SelfSharedPtr, func1) {
+TEST(SharedPtr, func1) {
   int k = 1000;
   SharedPtr<int> test0(&k);
   ASSERT_EQ(*test0, k);
